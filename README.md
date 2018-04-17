@@ -80,7 +80,7 @@ online forum:
 * The general forums page is a forum instead of a page that links to the user-
 specific forums
 
-### Known Bugs
+### Known Bugs and Defects
 At the time of this document's creation, there are no known bugs in the system's
 code
 
