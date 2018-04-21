@@ -14,6 +14,7 @@
     - [Build Instructions](#build-instructions)
     - [Installation](#installation)
     - [Run Instructions](#run-instructions)
+    - [Deployment Instructions](#deployment-instructions)
     - [Troubleshooting](#troubleshooting)
 
 <!-- markdown-toc end -->
@@ -72,6 +73,7 @@ online forum:
     medical professional-only forum
 * Post threads onto forums as well as comments on threads
 * Personal medical health surveys
+    * Surveys are only limited to seven questions
 
 ### Bug Fixes
 * Forums are now correctly restricted by user type
@@ -136,6 +138,34 @@ The username for this login page that opens is **root** with a blank password.
 ### Run Instructions
 To run the website, 
 
+### Deployment Instructions
+This section outlines how to deploy and host Health It Forward on a live
+website.
+
+The first step is to export the local site's backend database. This can be
+accomplished by using phpMyAdmin. To do this, go to
+`http://localhost/phpmyadmin/` and click on your Wordpress database (it should
+be in a list of databases found on your machine). After clicking on the
+Wordpress database, click on the **Export** buttom on the top menu. Once this
+has been clicked, click on the **Quick** option.
+
+Now open an FTP client and connect to a web hosting account. Upload files to the
+right directory.
+
+Next, create a MySQL database on the live site using phpMyAdmin. Once created,
+add users to the database (again with phpMyAdmin). With the user added,
+use phpMyAdmin to modify the user's privileges to be all.
+
+Now import the Wordpress database into phpMyAdmin. Click on the previously
+created database and hit the **import** option and choose the saved database
+file.
+
+This concludes how to deploy Health It Forward onto a live site.
+
+
 ### Troubleshooting
 More detailed installation information for the server can be found
 [here](http://www.wpbeginner.com/wp-tutorials/how-to-install-wordpress-on-your-windows-computer-using-wamp/).
+
+More detailed deployment informatoin for the site can be found
+[here](http://www.wpbeginner.com/wp-tutorials/how-to-move-wordpress-from-local-server-to-live-site/).
