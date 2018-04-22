@@ -136,7 +136,10 @@ The username for this login page that opens is **root** with a blank password.
 **TODO: keep going on with this**
 
 ### Run Instructions
-To run the website, 
+To run the website, click on the WAMP server icon and then on the
+phpMyAdmin icon. This will start up the server and allow the site to be loaded
+on `localhost`. Once the WAMP server is running, go to
+`http://localhost/HealthItForward`
 
 ### Deployment Instructions
 This section outlines how to deploy and host Health It Forward on a live
