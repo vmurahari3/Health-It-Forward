@@ -108,8 +108,6 @@ The `WAMP` server is required for the website to run; it can be downloaded
 on the `WAMP` [website](http://www.wampserver.com/en/) under the
 _Download_ section.
 
-**TODO: write about things like buddypress**
-
 ### Download Instructions
 In order to download the code, simlpy go to the website's
 [source page](https://github.com/vmurahari3/Health-It-Forward),
@@ -132,8 +130,6 @@ Once the `WAMP` server has been installed, a green icon on the lower righthand
 corner of the screen should appear. Click on this icon, and then click on the
 **phpMyAdmin** item. A new window in the default internet browser will open.
 The username for this login page that opens is **root** with a blank password.
-
-**TODO: keep going on with this**
 
 ### Run Instructions
 To run the website, click on the WAMP server icon and then on the
